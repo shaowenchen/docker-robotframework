@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+
+    robotframework:
+      build: ./
+      image: docker-robotframework
+      volumes:
+        - ./tests:/data
+      command:  /bin/bash -c  '/data/start.sh'

@@ -1,0 +1,9 @@
+robotframework==3.0.4
+robotframework-archivelibrary==0.4.0
+robotframework-ftplibrary==1.6
+robotframework-ride==1.5.2.1
+robotframework-selenium2library==3.0.0
+robotframework-seleniumlibrary==3.1.1
+robotframework-sshlibrary==3.1.0
+robotframework-excellibrary==0.0.2
+
