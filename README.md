@@ -34,7 +34,7 @@ version: '2'
 services:
 
     robotframework:
-      image: shaowenchen/docker-robotframework
+      image: shaowenchen/docker-robotframework:latest
       volumes:
         - ./tests:/data
       command:  /bin/bash -c  '/data/start.sh'
