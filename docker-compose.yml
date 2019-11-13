@@ -4,7 +4,7 @@ services:
 
     robotframework:
       build: ./
-      image: docker-robotframework
+      image: docker-robotframework:latest
       volumes:
         - ./tests:/data
       command:  /data/start.sh
